@@ -1,0 +1,21 @@
+.services-container {
+  background: url("/images/pozadina-onama.jpg") center center/cover no-repeat;
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.services-header {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 4vh;
+  font-family: "Dancing Script", cursive;
+}
+.services-container > p {
+  color: white;
+  font-size: 25px;
+}

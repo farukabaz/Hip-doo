@@ -1,0 +1,52 @@
+.contactlocation-container {
+  background: url("/images/contactlocation.jpg") center center/cover no-repeat;
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.contactlocation-header {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 4vh;
+  font-family: "Dancing Script", cursive;
+}
+.contact-phone {
+  margin-bottom: 3vh;
+}
+.contact-phone > a {
+  color: white;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.contact-mail {
+  margin-bottom: 3vh;
+}
+.contact-mail > a {
+  color: white;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.adres {
+  margin-bottom: 3vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.adres > a {
+  color: white;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.adres > p {
+  color: white;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.location-icon {
+  margin-top: 10px;
+}
