@@ -23,14 +23,15 @@ function ContactLocation() {
         </div>
         <div className='adres'>
           <p>Naša adresa</p>
-          <a>Zmaja od bosne,          </a>
-          <a>Robot Socijalno,          </a>
-          <a>71000 Sarajevo          </a>
-          <p
+          <a>Zmaja od bosne,</a>
+          <a>Robot Socijalno,</a>
+          <a>71000 Sarajevo</a>
+          <br/>
+          <a
             href='https://www.google.com/maps/place/Robot+Socijalno/@43.8524889,18.3844704,17.95z/data=!4m5!3m4!1s0x0:0xb65d0f1ebe8af2f8!8m2!3d43.8520708!4d18.3843434'
             className='location-icon'>
               <GoLocation/>
-          </p>
+          </a>
         </div>
       </div>
     </div>
